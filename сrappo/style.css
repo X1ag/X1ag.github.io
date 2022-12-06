@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root{
+    --dark: #0d0d2b;
+    --white: #FFFFFF;
+    --white-rgb: 255, 255, 255;
+    --blue: #3671e9;
+    --purple: #2b076e;
+    --purple-rgb:43, 7, 110;
+}
+body{
+    background-color: var(--white);
+}
+.logo{
+    width: 198px;
+    height: 75px;
+    margin-right: -23px;
+    margin-left: -153px;
+    margin-top: -67px;
+    margin-bottom: 0px
+}
+.header{
+    max-width: 1202px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.inline {
+    float: left;
+    width: 354px;
+    height: 0px;
+    white-space: nowrap;
+    font-size: 18px;
+    color: var(--white);
+    background-color: var(--blue);
+    margin-top: 268px;
+    margin-left: 119px;
+    padding: 68px;
+    border-radius: 32px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Lobster';
+    transition: .2s ease background-color;
+    border: none;
+}
+.arrow{
+    float: left;
+    width: 155px;
+    height: 71px;
+    margin-top: 304px;
+    margin-left: 10px;
+    margin-right: -113px;
+}
+.text_block{
+    margin-left: -47px;
+    margin-right: 0px;
+    width: 6em;
+    margin-top: -13px;
+    margin-bottom: -22px;
+}
+.bg{
+    background-color: var(--dark);
+    padding-bottom: 292px;
+    margin-bottom: 100px;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1202px;
+    margin: 0 auto;
+    padding: 60px 15px;
+    color:white
+}
+.bg_footer{
+    margin-top: -105px;
+    margin-bottom: -9px;
+    padding-bottom: 14px;
+    background-color: var(--dark);
+}
+.tg{
+    padding-top: 37px;
+    margin-top: 0px;
+    margin-left: -76px;
+}
+.footer_text{
+    float:left
+}
+.ourbot{
+    margin-left: -1130px;
+    margin-top: 85px;
+    font-family: 'Lobster';
+}
+.footer-text{
+    margin-top: 73px;
+    font-family: 'Lobster';
+    margin-left: -100px;
+}
+.price{
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
